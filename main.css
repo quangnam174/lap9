@@ -1,0 +1,30 @@
+body{
+    background:linear-gradient(to right, #671DD1, #EB2657) ;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    /* border: solid rgb(225, 255, 0) 2px; */
+} 
+.play-0{
+    display: flex;
+    flex-direction: column;
+}
+.play-01{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.play{
+    font-size: 130%;
+}
+#img{
+    height: 35%;
+}
+
+.score{
+    font-size: 180%;
+}
